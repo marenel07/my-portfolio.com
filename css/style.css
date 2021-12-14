@@ -151,7 +151,6 @@ header .follow a:hover{
 }
 .home .image{
    
-    background-size: cover;
 }
 .home .image img{
   background-size: cover;
@@ -160,10 +159,12 @@ header .follow a:hover{
 }
 .home .content{
     flex: none;
+    text-align: center;
 }
 .home .content .hi{
     font-size: 2rem;
     color: var(--main-color);
+    text-align: center;
  
 }
 .home .content h3{
