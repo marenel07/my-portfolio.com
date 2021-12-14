@@ -146,19 +146,21 @@ header .follow a:hover{
 /*home styling starts*/
 .home{
     display: flex;
-    align-items: center;  
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
     
 }
 .home .image{
    
 }
 .home .image img{
-  background-size: cover;
+  width: 100%;
    
    
 }
 .home .content{
-    flex: none;
+    flex: 1 1 40rem;
     text-align: center;
 }
 .home .content .hi{
